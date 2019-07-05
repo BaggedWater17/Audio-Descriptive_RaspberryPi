@@ -25,6 +25,7 @@ GPIO.setup(7, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 # Create a list of the Audio file(s)
 audio_files = ['accessibility_test.wav']
+# create a list of the audio file durations (convert to seconds)
 audio_file_durations = ['648']
 
 # Aplay file loop booleans
